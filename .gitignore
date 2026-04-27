@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log

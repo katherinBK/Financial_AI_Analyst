@@ -1,0 +1,13 @@
+{
+  "task": "analyze the current market of the forex instrument USD/JPY and determinate the best scenario",
+  "analysis_type": "thematic",
+  "output_structure": {
+    "themes": {
+      "include": ["theme_name", "frequency_count", "severity_rating"],
+      "minimum_mentions": 3
+    },
+    "categories": ["finance", "quant_finance", "pricing", "forex","USD/JPY"],
+    "include_quotes": true,
+    "max_quotes_per_theme": 2
+  }
+}

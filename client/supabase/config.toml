@@ -1,0 +1,10 @@
+project_id = "euzriesnwrrjhrxmcfay"
+
+[functions.calculate-indicators]
+verify_jwt = false
+
+[functions.ai-analysis]
+verify_jwt = false
+
+[functions.simulate-strategy]
+verify_jwt = false

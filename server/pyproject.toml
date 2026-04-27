@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.11,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "market_analyst"
+authors = [{name = "Katherin Bohnert Kolasinski", email = "katherinbohnert@royaltytrading.com"}]
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+dynamic = ["version", "description"]
