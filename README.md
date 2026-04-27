@@ -1,19 +1,19 @@
-# Financial AI Analyst 🤖📈
+# Financial AI Analyst
 
 A sophisticated agentic trading system built with **LangGraph**, **FastAPI**, and **React**. This project uses a multi-agent architecture to provide technical analysis, trading strategies, and deep reasoning for Forex and financial markets, powered by local AI models.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The project is divided into a specialized client-server architecture:
 
 ### 1. Backend (`/server`) - Agentic Intelligence
 A multi-agent system built with **LangGraph** that selects the best specialized agent based on the user's query:
 
-- **⚡ Simple Agent**: Fast responses (< 2s) for conceptual questions (e.g., "¿Qué es el RSI?"). No tools used.
-- **🔮 Main Agent**: Quantitative analysis using specialized tools for risk management and Kelly Criterion.
-- **🤖 ReAct Agent**: Deep reasoning and evaluation of trading predictions with step-by-step logic.
+- **Simple Agent**: Fast responses (< 2s) for conceptual questions (e.g., "¿Qué es el RSI?"). No tools used.
+- **Main Agent**: Quantitative analysis using specialized tools for risk management and Kelly Criterion.
+- **ReAct Agent**: Deep reasoning and evaluation of trading predictions with step-by-step logic.
 
 **Key Technologies:** Python, FastAPI, LangChain, LangGraph, LM Studio (Phi-4-mini).
 
@@ -24,7 +24,7 @@ A modern, responsive trading dashboard focused on user experience and real-time 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v18+)
@@ -77,7 +77,7 @@ A modern, responsive trading dashboard focused on user experience and real-time 
 
 ---
 
-## 🛠️ Specialized Tools
+## Specialized Tools
 The agents have access to a suite of quantitative trading tools:
 - **Win Calculator**: Precise calculation of potential gains.
 - **Risk Manager**: Calculates maximum drawdown and capital exposure.
@@ -85,7 +85,7 @@ The agents have access to a suite of quantitative trading tools:
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 ```text
 Financial_AI_Analyst/
 ├── client/              # React Dashboard
@@ -100,7 +100,7 @@ Financial_AI_Analyst/
 
 ---
 
-## 📝 License
+## License
 This project is licensed under the Apache-2.0 License.
 
-Developed with ❤️ for the Trading Community.
+Developed for the Trading Community.
